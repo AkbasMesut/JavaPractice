@@ -4,6 +4,9 @@ public class phone {
     public String brand, model, size, color;
     public double price;
 
+ public phone(){}
+
+
     public phone(String brand, String model, String size, String color, double price) {
         this.brand = brand;
         this.model = model;
