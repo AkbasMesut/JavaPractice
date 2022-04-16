@@ -1,4 +1,6 @@
-package Tasks.Day36_Inheritance;
+package Tasks.Day36_Inheritance.phoneTask;
+
+import Tasks.Day36_Inheritance.phoneTask.Iphone;
 
 public class PhoneObject {
 

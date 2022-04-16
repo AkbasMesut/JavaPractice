@@ -1,4 +1,4 @@
-package Tasks.Day39_Encapsulation_Inheritance;
+package Tasks.Day39_Encapsulation_Inheritance.animalTask;
 
 public class Animal {
 
@@ -6,13 +6,31 @@ public class Animal {
     private char gender;
     private int age;
 
-    public Animal(String name, String breed, String size, String color, char gender, int age) {
-        setName(name);
-        setBreed(breed);
-        setSize(size);
-        setColor(color);
-        setGender(gender);
-        setAge(age);
+    private boolean isWild,isFriendly,isPlayable;
+
+
+    public Animal(String name, String breed, String size, String color, char gender, int age, boolean isWild, boolean isFriendly, boolean isPlayable) {
+        this.name = name;
+        this.breed = breed;
+        this.size = size;
+        this.color = color;
+        this.gender = gender;
+        this.age = age;
+        this.isWild = isWild;
+        this.isFriendly = isFriendly;
+        this.isPlayable = isPlayable;
+    }
+
+    public boolean isWild() {
+        return isWild;
+    }
+
+    public boolean isFriendly() {
+        return isFriendly;
+    }
+
+    public boolean isPlayable() {
+        return isPlayable;
     }
 
     public String getName() {

@@ -1,4 +1,4 @@
-package Tasks.Day39_Encapsulation_Inheritance;
+package Tasks.Day39_Encapsulation_Inheritance.animalTask;
 
 public class FriendlyAnimal extends Animal {
 
@@ -7,7 +7,7 @@ public class FriendlyAnimal extends Animal {
     private final static boolean isPlayable = true;
 
     public FriendlyAnimal(String name, String breed, String size, String color, char gender, int age) {
-        super(name, breed, size, color, gender, age);
+        super(name, breed, size, color, gender, age,isWild,isFriendly,isPlayable);
 
     }
 

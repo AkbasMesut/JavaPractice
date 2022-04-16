@@ -1,6 +1,8 @@
-package Tasks.Day36_Inheritance;
+package Tasks.Day36_Inheritance.phoneTask;
 
-public class Samsung extends phone{
+import Tasks.Day36_Inheritance.phoneTask.phone;
+
+public class Samsung extends phone {
 
 
 

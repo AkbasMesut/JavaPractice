@@ -1,4 +1,4 @@
-package Tasks.Day36_Inheritance;
+package Tasks.Day36_Inheritance.phoneTask;
 
 public class Iphone extends phone {
 
