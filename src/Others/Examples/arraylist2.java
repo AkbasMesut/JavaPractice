@@ -1,10 +1,9 @@
-package Others.Exercises;
+package Others.Examples;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class test2 {
+public class arraylist2 {
 
     public static void main(String[] args) {
 
@@ -17,7 +16,6 @@ public class test2 {
         boolean result = list1.containsAll(Arrays.asList('a', 'c', 'D'));
 
         System.out.println(result);
-
 
     }
 }

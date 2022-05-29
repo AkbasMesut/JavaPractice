@@ -1,13 +1,13 @@
-package Others.Exercises;
+package Others.Examples;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class test1 {
+public class arraylist1 {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer>list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1,2,3,4,5,6,7));
 
         for (Integer integer : list) {
@@ -19,6 +19,4 @@ public class test1 {
         }
 
     }
-
-
 }

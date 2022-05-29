@@ -11,16 +11,19 @@ public class findBiggestNumber {
         int rows = inp.nextInt(), cols = inp.nextInt();
         int[][] arr = new int[rows][cols];
 
-        for (int i = 0; i <= rows-1; i++) {
 
-            for (int j = 0; j <=cols-1 ; j++) {
+        int max = arr[0][0];
 
-                arr[i][j] = inp.nextInt();
+        for (int i = 0; i <= rows - 1; i++) {
 
+            for (int j = 0; j <= cols - 1; j++) {
+
+                if (arr[i][j] > max) {
+                    max = arr[i][j];
+                }
             }
-
         }
-
+        System.out.println(max);
 
 
     }
