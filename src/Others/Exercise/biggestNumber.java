@@ -1,8 +1,7 @@
-package Others.Exercises;
+package Others.Exercise;
 
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class biggestNumber {
 

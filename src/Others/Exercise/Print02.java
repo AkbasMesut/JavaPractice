@@ -1,6 +1,4 @@
-package Others.Exercises;
-
-import java.util.*;
+package Others.Exercise;
 
 public class Print02 {
 

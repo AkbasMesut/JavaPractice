@@ -1,4 +1,4 @@
-package Others.Examples;
+package Others.Exercise;
 
 public class CharArray {
 

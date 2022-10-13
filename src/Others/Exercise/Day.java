@@ -1,4 +1,4 @@
-package Others.Exercises;
+package Others.Exercise;
 
 public enum Day {
 
