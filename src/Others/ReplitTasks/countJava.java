@@ -19,12 +19,10 @@ public class countJava {
                 count++;
                 lastIndex += "java".length();
             }
-
         }
         System.out.println(count);
-
-
     }
+
 
 }
 /*
