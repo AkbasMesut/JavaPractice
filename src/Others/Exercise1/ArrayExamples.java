@@ -1,5 +1,8 @@
 package Others.Exercise1;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class ArrayExamples {
 
     // Write a function that can find the maximum number from an int Array
@@ -46,15 +49,32 @@ public class ArrayExamples {
     }
 
 
+    /*
+   Given the array return the output
+               testArray = {"Apple","Banana","Apple","Cherry"}
+               Output Example
+               Apple = 2
+               Banana = 1
+               Cherry = 1
+    */
+    public static void frequencyOfEachElement(String[] str) {
+        Map<String, Integer> map = new LinkedHashMap<>();
 
-     /*
-    Given the array return the output
-                testArray = {"Apple","Banana","Apple","Cherry"}
-                Output Example
-                Apple = 2
-                Banana = 1
-                Cherry = 1
-     */
+        for (String each : str) {
+            int frequency = 0;
+            for (String each1 : str) {
+                if (each.equals(each1)) {
+                    frequency++;
+                }
+            }
+            map.put(each, frequency);
+        }
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println(entry);
+        }
+    }
+
+
 
      /*
      int[]arr = {1,2,3,4,3,2,1,3,2,2,2,4};
