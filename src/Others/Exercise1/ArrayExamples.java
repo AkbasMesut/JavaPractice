@@ -2,14 +2,11 @@ package Others.Exercise1;
 
 public class ArrayExamples {
 
-     /*
-        Write a function that can find the maximum number from an int Array
-     */
-
-    public static int maxValue(int[] num){
+    // Write a function that can find the maximum number from an int Array
+    public static int maxValue(int[] num) {
         int max = Integer.MIN_VALUE;
         for (int each : num) {
-            if (each>max){
+            if (each > max) {
                 max = each;
             }
         }
@@ -17,15 +14,38 @@ public class ArrayExamples {
     }
 
 
-     /*
-        Write a function that can find the minimum number from an int Array
-     */
+    // Write a function that can find the minimum number from an int Array
+    public static int minValue(int[] num) {
+        int min = Integer.MAX_VALUE;
+        for (int each : num) {
+            if (each < min) {
+                min = each;
+            }
+        }
+        return min;
+    }
 
 
+    // write a program that can find the first duplicated number from the array
+    public static int firstDublicateNum(int[] num) {
+        int firstDublicate = 0;
 
-     /*
-    write a program that can find the first duplicated element from the array
-     */
+        for (int each : num) {
+            int frequency = 0;
+            for (int each1 : num) {
+                if (each == each1) {
+                    frequency++;
+                }
+            }
+            if (frequency > 1) {
+                firstDublicate = frequency;
+                break;
+            }
+        }
+        return firstDublicate;
+    }
+
+
 
      /*
     Given the array return the output
